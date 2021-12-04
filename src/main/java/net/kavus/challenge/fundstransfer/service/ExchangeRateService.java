@@ -19,7 +19,7 @@ import net.kavus.challenge.fundstransfer.model.ExchangeRate;
 @Service
 public class ExchangeRateService {
 
-	//it can be queried from real service, but for test purpose we will use this dummy data
+	//it can be queried from a real service, but for test purpose we will use this dummy data
 	public List<ExchangeRate> getRates() {
 		List<ExchangeRate> rates = new ArrayList<>();
 		rates.add( new ExchangeRate(EUR, USD, 1.13) );
